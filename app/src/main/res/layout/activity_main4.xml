@@ -8,8 +8,10 @@
         android:layout_height="wrap_content"
         android:text="Phone "
         android:textSize="25dp"
+        android:layout_alignBaseline="@+id/edit1"
         />
     <EditText
+        android:id="@+id/edit1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/textphone"
